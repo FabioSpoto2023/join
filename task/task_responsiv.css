@@ -20,17 +20,6 @@
         min-height: 926px !important;
     }
 
-    #jura_container {
-        top: 64px !important;
-        right: 8px !important;
-        z-index: 999;
-        position: absolute;
-    }
-
-    .jura_undercontainer {
-        height: 33px !important;
-    }
-
     #div_body {
         overflow: hidden;
         position: unset;

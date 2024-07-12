@@ -3,7 +3,8 @@
  * The URL of the Firebase Realtime Database where data will be stored and retrieved.
  * Die URL der Firebase-Echtzeitdatenbank, in der Daten gespeichert und abgerufen werden.
  */
-const STORAGE_URL = "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX";
+// const STORAGE_URL = "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX";
+const STORAGE_URL = "https://join-bd291-default-rtdb.europe-west1.firebasedatabase.app/";
 
 /**
  * An array containing contact data.
@@ -335,7 +336,7 @@ function jura_window() {
     } else {
         juraContainer.style.display = "none";
     }
-
+    event.stopPropagation();
 }
 
 /**
@@ -354,3 +355,7 @@ function goBack() {
 function goBackLogin() {
     window.location.href = '/';
 }
+
+window.addEventListener('click', () => {
+    jura_window();
+});

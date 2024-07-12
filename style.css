@@ -188,39 +188,40 @@ body {
 #jura_container {
     width: 150px;
     height: fit-content;
-    position: fixed;
-    top: 137px;
-    right: 30px;
-    padding: 10px 0;
+    position: fixed !important;
+    top: 100px !important;
+    right: 16px !important;
     border-radius: 20px 0px 20px 20px;
     background-color: #2A3647;
     color: #CDCDCD;
     font-size: 16px;
     font-weight: 400;
     display: none;
-    gap: 8px;
     flex-direction: column;
     align-items: flex-start;
     align-content: center;
     flex-wrap: wrap;
     z-index: 1;
+    border-radius: 10px;
+    padding: 10px 0;
 }
 
 .jura_undercontainer {
+    width: 100%;
     text-decoration: none;
-    padding: 6px;
+    padding: 10px 0;
+    text-align: center;
     background-color: #2A3647;
     color: #CDCDCD;
+    border-radius: 10px;
 }
 
 .jura_undercontainer:hover {
     text-decoration: none;
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: rgba(0, 0, 0, 0.2);
 }
 
 /* ENDE kleine Fenster oben rechts, wo man sich ausloggen kann usw..*/
-
-.menu_iconsWH {}
 
 .side_menu_bg.selected {
     background-color: #091931;
