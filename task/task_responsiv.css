@@ -23,7 +23,6 @@
     #jura_container {
         top: 64px !important;
         right: 8px !important;
-        height: 204px !important;
         z-index: 999;
         position: absolute;
     }

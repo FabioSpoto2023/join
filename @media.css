@@ -14,10 +14,6 @@
         display: flex;
     }
 
-    #jura_container {
-        height: 197px;
-    }
-
     .side_menu_bg.selected {
         width: 100px;
         height: 100px;

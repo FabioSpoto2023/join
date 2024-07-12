@@ -187,11 +187,11 @@ body {
 
 #jura_container {
     width: 150px;
-    height: 158px;
+    height: fit-content;
     position: fixed;
     top: 137px;
     right: 30px;
-    padding: 10px 0px 0px 0px;
+    padding: 10px 0;
     border-radius: 20px 0px 20px 20px;
     background-color: #2A3647;
     color: #CDCDCD;

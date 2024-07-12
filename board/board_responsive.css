@@ -7,10 +7,6 @@
         display: flex;
     }
 
-    #jura_container {
-        height: 197px;
-    }
-
     #header_logo {
         display: block;
         width: 32px;
