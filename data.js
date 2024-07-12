@@ -357,5 +357,8 @@ function goBackLogin() {
 }
 
 window.addEventListener('click', () => {
-    jura_window();
+    let dropdown = document.getElementById('jura_container');
+    if (dropdown.style.display == 'flex') {
+        jura_window();
+    }
 });
